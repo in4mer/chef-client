@@ -25,6 +25,7 @@ supported_init_styles = %w{
   arch
   bluepill
   bsd
+  cron
   daemontools
   init
   launchd

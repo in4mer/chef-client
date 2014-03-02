@@ -2,6 +2,16 @@ chef-client Cookbook CHANGELOG
 ==============================
 This file is used to list changes made in each version of the chef-client cookbook.
 
+v3.3.3 (2014-02-27)
+-------------------
+[COOK-4338] - chef-client Upstart job starts too early
+
+
+v3.3.2 (2014-02-25)
+-------------------
+Fixing merge conflict in launchd_service
+
+
 v3.3.0 (2014-02-25)
 -------------------
 ### Bug

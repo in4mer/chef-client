@@ -94,7 +94,7 @@ if node['chef_client']['cron']['use_cron_d']
     cmd = ''
     cmd << "/bin/sleep #{sleep_time}; " if sleep_time
     cmd << "test -n \"$(pidof chef-client)\" && { logger -t chef-cron 'chef-client already running'; exit 1; }; "
-    cmd << "#{env} #{client_bin} >> #{log_file} 2>&1; "
+    cmd << "#{env} #{client_bin} > #{log_file} 2>&1; "
     command cmd
   end
 else
